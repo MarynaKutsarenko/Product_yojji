@@ -1,0 +1,204 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Montserrat:wght@600&family=Poppins:ital,wght@0,400;0,500;0,700;1,600&family=Roboto:wght@400;500;900&display=swap');
+
+/* font-family: 'Inter',sans-serif;
+font-family: 'Montserrat',sans-serif;
+font-family: 'Roboto',sans-serif; */
+
+:root {
+  --primary-color-text: #ffffff;
+  --primary-bg: #1F2E35;
+  --change-transition: 0.3s;
+  --primary-color-btn: #02897A;
+}
+
+body {
+  background: var(--primary-bg);
+  color: var(--primary-color-text);
+  font-family: 'Poppins', sans-serif;
+  font-size: 1em;
+}
+
+.header {
+  max-width: 1110px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 19px 0px;
+  margin-bottom: 43px;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.header__logo {
+  margin-right: auto;
+  transition: all 0.5;
+  -webkit-transition: all 0.5;
+  -moz-transition: all 0.5;
+  -ms-transition: all 0.5;
+  -o-transition: all 0.5;
+}
+
+.header__auth:hover,
+.menu__link:hover,
+.header__logo:hover {
+  opacity: 0.5;
+  cursor: pointer;
+  transition: all 0.5;
+  -webkit-transition: all 0.5;
+  -moz-transition: all 0.5;
+  -ms-transition: all 0.5;
+  -o-transition: all 0.5;
+}
+
+.logo__image {
+  width: 178px;
+  height: 37px;
+}
+
+.header__nav {
+  margin-right: 24px;
+}
+
+/* .nav {} */
+
+.nav__menu {
+  display: flex;
+}
+
+/* .menu {} */
+
+.menu__item:not(:last-child) {
+  margin-right: 29px;
+}
+
+.menu__link {
+  padding: 4px;
+  transition: all 0.5;
+  -webkit-transition: all 0.5;
+  -moz-transition: all 0.5;
+  -ms-transition: all 0.5;
+  -o-transition: all 0.5;
+}
+
+._active {
+  font-weight: 500;
+}
+
+.header__auth {
+  border-radius: 4px;
+  font-weight: 600;
+  margin-right: 24px;
+  padding: 14px 24px 11px 23px;
+}
+
+.btn__login {
+  border: 1px solid #BCD0E5;
+}
+
+._primery {
+  background: var(--primary-color-btn);
+}
+
+.theme__btn {
+  background: #F3F3F3;
+  border-radius: 100px;
+  padding: 3px 3px 1px 3px;
+}
+
+.theme__icon {
+  width: 24px;
+  height: 24px;
+}
+
+/* section introduction */
+.introduction {
+  margin-bottom: 100px;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main__info {
+  display: flex;
+  flex-direction: column;
+  width: 39%;
+  padding: 20px 20px;
+}
+
+.main__title {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 60px;
+  margin-bottom: 18px;
+}
+
+.main__text {
+  margin-bottom: 45px;
+  line-height: 28px;
+}
+
+.main__btn {
+  display: inline-block;
+  padding: 14px 30px 11px 30px;
+  border-radius: 4px;
+
+  transition: all 0.5;
+  -webkit-transition: all 0.5;
+  -moz-transition: all 0.5;
+  -ms-transition: all 0.5;
+  -o-transition: all 0.5;
+}
+
+.btn__holder {
+  display: flex;
+  align-items: center;
+} 
+
+.main__btn:first-child {
+  margin-right: 30px;
+}
+
+.main__btn:hover {
+  opacity: 0.5;
+  transition: all 0.5;
+  -webkit-transition: all 0.5;
+  -moz-transition: all 0.5;
+  -ms-transition: all 0.5;
+  -o-transition: all 0.5;
+}
+
+.main__link {
+  position: relative;
+  color: #02897A;
+  text-decoration: underline;
+}
+
+.btn__arr {
+  position: absolute;
+  top: 30%;
+  left: 3%;
+  width: 17px;
+  height: 19px;
+}
+
+.main__img {}
+
+.introduction__info {}
+
+.title {}
+
+.introduction__title {}
+
+.holder__cards {}
+
+._bold {
+  font-weight: 700;
+}
